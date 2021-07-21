@@ -22,7 +22,7 @@ li {
 }
 
 .nav {
-  width: 90%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,8 +44,9 @@ li {
 .dropdownNav {
   position: absolute;
   top: 50px;
-  width: 90%;
+  width: 80%;
   display: flex;
+  justify-content: center;
 }
 
 aside ul {
