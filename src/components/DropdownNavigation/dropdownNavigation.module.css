@@ -1,0 +1,47 @@
+.dropdownNav {
+  flex: 1;
+  padding: 40px 20px 0 0;
+  overflow: hidden;
+}
+
+.dropdownNav a {
+  display: flex;
+}
+
+.dropdownNav h2 {
+  position: relative;
+  flex: 1;
+  margin: 0;
+  padding-bottom: 15px;
+  color: #333;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dropdownNav h3 {
+  position: relative;
+  flex: 1;
+  margin: 0;
+  padding: 5px 20px 5px 0;
+  color: #999;
+  font-size: 13px;
+  font-weight: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dropdownNav i {
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 12px;
+}
+
+.dropdownNav h2 + i {
+  padding-bottom: 15px;
+}

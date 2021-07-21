@@ -1,0 +1,105 @@
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.menu a {
+  padding: 15px;
+  color: #333;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.dropdownNav {
+  position: absolute;
+  top: 50px;
+  width: 90%;
+  display: flex;
+}
+
+aside ul {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+aside li {
+  padding: 15px;
+  color: #333;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+aside button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobileTitle {
+  padding: 15px 20px 0;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.mobileMenu ul {
+  flex: 1;
+}
+
+.mobileMenu a {
+  padding: 14px 13px 19px;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.mobileMenu li:first-child a {
+  padding: 14px 13px 19px 20px;
+}
